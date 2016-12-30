@@ -14,7 +14,7 @@ of the firmware for which the sound app is available.
 | US 9.0-11.2 | ✓ | ✓ |
 | JPN 9.0-11.2 | ✓ | ✓ |
 | EUR 9.0-11.2 | ✓ | ✓ |
-| KOR ?-11.2 | ✗ | ✗ |
+| KOR 9.6-11.2 | △ | △ |
 | CHN ?-11.2 | ✗ | ✗ |
 | TWN ?-11.2 | ✗ | ✗ |
 
