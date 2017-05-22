@@ -18,6 +18,10 @@
 
 #elif defined(EUR)
 
+#if VERSION == 20
+
+#elif VERSION == 70
+
 #define GSP_THREAD_OBJ_PTR  0x003C0010
 #define FS_OPEN_FILE 0x0022929C
 #define FS_READ_FILE 0x002C4374
@@ -28,6 +32,12 @@
 #define GSP_ENQUEUE_CMD 0x001C7BF4
 #define GSP_WRITE_HW_REGS 0x002D5940
 #define FS_MOUNT_SDMC 0x0011FA90
+
+#else
+
+#error "not support version"
+
+#endif
 
 #elif defined(JPN)
 
