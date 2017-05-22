@@ -57,7 +57,7 @@ gpu_enqueue_gadget
 
 constants = {
     "fake_free_chunk": {
-        "20": {"eur": 0xDEADBABE},
+        "20": {"eur": 0x15D62F10},
         "70": {"usa": 0x15D62F10, "eur": 0x15D62F10, "jpn": 0x15D62F10, "kor": 0x15D69A94},
     },
     "heapctx": {
@@ -65,11 +65,11 @@ constants = {
         "70": {"usa": 0x0039B560, "eur": 0x0039B580, "jpn": 0x0039B520, "kor": 0x003B4520},
     },
     "start": {
-        "20": {"eur": 0xDEADBABE},
+        "20": {"eur": 0x140018AF},
         "70": {"usa": 0x140018AF, "eur": 0x140018AF, "jpn": 0x140018AF, "kor": 0x140018AF},
     },
     "end1": {
-        "20": {"eur": 0xDEADBABE},
+        "20": {"eur": 0x14001920},
         "70": {"usa": 0x14001920, "eur": 0x14001920, "jpn": 0x14001920, "kor": 0x14001920},
     },
     "sleep_gadget": {
@@ -97,7 +97,7 @@ constants = {
         "70": {"usa": 0x0022B6C8, "eur": 0x0022B6C8, "jpn": 0x0022B6C8, "kor": 0x002220E0},
     },
     "payload_stack_addr": {
-        "20": {"eur": 0xDEADBABE},
+        "20": {"eur": 0x15D630C8},
         "70": {"usa": 0x15D630C8, "eur": 0x15D630C8, "jpn": 0x15D630C8, "kor": 0x15D69C38},
     },
     "stage2_code_va": {
