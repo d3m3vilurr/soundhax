@@ -8,6 +8,7 @@ from os import environ, path, name as osname
 
 REGION = "usa"
 TYPE = "old" # "new"
+VERSION = "7.0"
 
 if len(sys.argv) > 1:
     REGION = sys.argv[1].lower()
@@ -15,10 +16,19 @@ if len(sys.argv) > 1:
 if len(sys.argv) > 2:
     TYPE = sys.argv[2].lower()
 
-for name, regions in constants.items():
+if len(sys.argv) > 3:
+    VERSION = sys.argv[3].lower()
+
+for name, versions in constants.items():
+    if VERSION not in versions:
+        print("Error: {} does not contain a constant for {}".format(VERSION,
+                                                                    name))
+        raise SystemExit(1)
+    regions = versions[VERSION]
     if REGION not in regions:
         print("Error: {} does not contain a constant for {}".format(REGION,
                                                                     name))
+        raise SystemExit(1)
     globals()[name] = regions[REGION]
 
 def p(x):
