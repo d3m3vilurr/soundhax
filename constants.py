@@ -61,7 +61,7 @@ constants = {
         "70": {"usa": 0x15D62F10, "eur": 0x15D62F10, "jpn": 0x15D62F10, "kor": 0x15D69A94},
     },
     "heapctx": {
-        "20": {"eur": 0xDEADBABE},
+        "20": {"eur": 0x00395580},
         "70": {"usa": 0x0039B560, "eur": 0x0039B580, "jpn": 0x0039B520, "kor": 0x003B4520},
     },
     "start": {
@@ -101,7 +101,7 @@ constants = {
         "70": {"usa": 0x15D630C8, "eur": 0x15D630C8, "jpn": 0x15D630C8, "kor": 0x15D69C38},
     },
     "stage2_code_va": {
-        "20": {"eur": 0xDEADBABE},
+        "20": {"eur": 0x002F7630},
         "70": {"usa": 0x002F5D00, "eur": 0x002F5D00, "jpn": 0x002F5D00, "kor": 0x002F5D00},
     },
     "pop_r2_thru_r6_pc": {
@@ -109,7 +109,7 @@ constants = {
         "70": {"usa": 0x0021462C, "eur": 0x00108910, "jpn": 0x0021462C, "kor": 0x00148740},
     },
     "payload_heap_addr": {
-        "20": {"eur": 0xDEADBABE},
+        "20": {"eur": 0x14200000},
         "70": {"usa": 0x14200000, "eur": 0x14200000, "jpn": 0x14200000, "kor": 0x14200000},
     },
 }
