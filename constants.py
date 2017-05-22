@@ -57,59 +57,59 @@ gpu_enqueue_gadget
 
 constants = {
     "fake_free_chunk": {
-        "2.0": {"eur": 0xDEADBABE},
-        "7.0": {"usa": 0x15D62F10, "eur": 0x15D62F10, "jpn": 0x15D62F10, "kor": 0x15D69A94},
+        "20": {"eur": 0xDEADBABE},
+        "70": {"usa": 0x15D62F10, "eur": 0x15D62F10, "jpn": 0x15D62F10, "kor": 0x15D69A94},
     },
     "heapctx": {
-        "2.0": {"eur": 0xDEADBABE},
-        "7.0": {"usa": 0x0039B560, "eur": 0x0039B580, "jpn": 0x0039B520, "kor": 0x003B4520},
+        "20": {"eur": 0xDEADBABE},
+        "70": {"usa": 0x0039B560, "eur": 0x0039B580, "jpn": 0x0039B520, "kor": 0x003B4520},
     },
     "start": {
-        "2.0": {"eur": 0xDEADBABE},
-        "7.0": {"usa": 0x140018AF, "eur": 0x140018AF, "jpn": 0x140018AF, "kor": 0x140018AF},
+        "20": {"eur": 0xDEADBABE},
+        "70": {"usa": 0x140018AF, "eur": 0x140018AF, "jpn": 0x140018AF, "kor": 0x140018AF},
     },
     "end1": {
-        "2.0": {"eur": 0xDEADBABE},
-        "7.0": {"usa": 0x14001920, "eur": 0x14001920, "jpn": 0x14001920, "kor": 0x14001920},
+        "20": {"eur": 0xDEADBABE},
+        "70": {"usa": 0x14001920, "eur": 0x14001920, "jpn": 0x14001920, "kor": 0x14001920},
     },
     "sleep_gadget": {
-        "2.0": {"eur": 0x0018F5F4},
-        "7.0": {"usa": 0x001B5A5C, "eur": 0x002F11C0, "jpn": 0x002F0F28, "kor": 0x0012A6C8},
+        "20": {"eur": 0x0018F5F4},
+        "70": {"usa": 0x001B5A5C, "eur": 0x002F11C0, "jpn": 0x002F0F28, "kor": 0x0012A6C8},
     },
     "gpu_flushcache_gadget": {
-        "2.0": {"eur": 0x002E53E8},
-        "7.0": {"usa": 0x002E2958, "eur": 0x002E2AC8, "jpn": 0x002E2830, "kor": 0x0012B730},
+        "20": {"eur": 0x002E53E8},
+        "70": {"usa": 0x002E2958, "eur": 0x002E2AC8, "jpn": 0x002E2830, "kor": 0x0012B730},
     },
     "gpu_enqueue_gadget": {
-        "2.0": {"eur": 0x002EB128},
-        "7.0": {"usa": 0x002E96FC, "eur": 0x002E9428, "jpn": 0x002E95D4, "kor": 0x00131B0C},
+        "20": {"eur": 0x002EB128},
+        "70": {"usa": 0x002E96FC, "eur": 0x002E9428, "jpn": 0x002E95D4, "kor": 0x00131B0C},
     },
     "memcpy_gadget": {
-        "2.0": {"eur": 0x0022CF70},
-        "7.0": {"usa": 0x0022DB1C, "eur": 0x0022DB1C, "jpn": 0x0022DB1C, "kor": 0x00228910},
+        "20": {"eur": 0x0022CF70},
+        "70": {"usa": 0x0022DB1C, "eur": 0x0022DB1C, "jpn": 0x0022DB1C, "kor": 0x00228910},
     },
     "pop_r0_pc": {
-        "2.0": {"eur": 0x002E8F14},
-        "7.0": {"usa": 0x002e6f80, "eur": 0x002E70F0, "jpn": 0x002E6E58, "kor": 0x0012FA94},
+        "20": {"eur": 0x002E8F14},
+        "70": {"usa": 0x002e6f80, "eur": 0x002E70F0, "jpn": 0x002E6E58, "kor": 0x0012FA94},
     },
     "pop_r1_pc": {
-        "2.0": {"eur": 0x0022A7D4},
-        "7.0": {"usa": 0x0022B6C8, "eur": 0x0022B6C8, "jpn": 0x0022B6C8, "kor": 0x002220E0},
+        "20": {"eur": 0x0022A7D4},
+        "70": {"usa": 0x0022B6C8, "eur": 0x0022B6C8, "jpn": 0x0022B6C8, "kor": 0x002220E0},
     },
     "payload_stack_addr": {
-        "2.0": {"eur": 0xDEADBABE},
-        "7.0": {"usa": 0x15D630C8, "eur": 0x15D630C8, "jpn": 0x15D630C8, "kor": 0x15D69C38},
+        "20": {"eur": 0xDEADBABE},
+        "70": {"usa": 0x15D630C8, "eur": 0x15D630C8, "jpn": 0x15D630C8, "kor": 0x15D69C38},
     },
     "stage2_code_va": {
-        "2.0": {"eur": 0xDEADBABE},
-        "7.0": {"usa": 0x002F5D00, "eur": 0x002F5D00, "jpn": 0x002F5D00, "kor": 0x002F5D00},
+        "20": {"eur": 0xDEADBABE},
+        "70": {"usa": 0x002F5D00, "eur": 0x002F5D00, "jpn": 0x002F5D00, "kor": 0x002F5D00},
     },
     "pop_r2_thru_r6_pc": {
-        "2.0": {"eur": 0x00107F98},
-        "7.0": {"usa": 0x0021462C, "eur": 0x00108910, "jpn": 0x0021462C, "kor": 0x00148740},
+        "20": {"eur": 0x00107F98},
+        "70": {"usa": 0x0021462C, "eur": 0x00108910, "jpn": 0x0021462C, "kor": 0x00148740},
     },
     "payload_heap_addr": {
-        "2.0": {"eur": 0xDEADBABE},
-        "7.0": {"usa": 0x14200000, "eur": 0x14200000, "jpn": 0x14200000, "kor": 0x14200000},
+        "20": {"eur": 0xDEADBABE},
+        "70": {"usa": 0x14200000, "eur": 0x14200000, "jpn": 0x14200000, "kor": 0x14200000},
     },
 }
